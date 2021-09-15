@@ -1,0 +1,514 @@
+@import url('https://fonts.googleapis.com/css2?family=Keania+One&family=Nunito:wght@200&family=Poppins:wght@500&display=swap&');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+html{
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+}
+
+body{
+    background-color: #e4dada;
+    font-size: 16px;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+.container-header{
+    position: relative;
+    width: 100%;;
+    height: 7rem;
+    background-color: #111;
+    display: flex;
+    align-items: center;
+}
+
+.link-home{
+    text-decoration: none;
+}
+
+.title-header{
+    color: #fff;
+    margin-left: 1rem;
+    font-family: 'Keania One';
+    font-size: 2.9rem;
+}
+
+.span-header{
+    background-color: #ff0000;
+    padding: 5px 10px;
+    font-family: 'Keania One';
+}
+
+.icons-social{
+    position: absolute;
+    right: 90px;
+    display: flex;
+    width: 200px;
+    background-color: transparent;
+    justify-content: center;
+}
+
+.icons-social a{
+    text-decoration: none;
+    color: #000;
+}
+
+.icons{
+    width: 55px;
+    height: 55px;
+    background-color: #333;
+    margin-right: 0.5rem;
+    border-radius: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: #fff;
+}
+
+.icons:hover{
+    background-color: #ff0000;
+
+}
+
+.icon-re{
+    font-size: 2rem;
+}
+
+
+.btn-coffee{
+   display: flex;
+   align-items: center;
+   background-color: red;
+   padding: 7px 20px;
+   text-decoration: none;
+   position: absolute;
+   right: 1rem;
+}
+
+.btn-coffee:hover{
+    box-shadow: inset 0px 0px 20px #c40607;
+}
+
+.img-coffee{
+    width: 4rem;
+    height: 4rem;
+}
+
+/* Estilo del contenido de los numeros, imagnes, y texto de cada uno*/
+
+.main{
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.container-main{
+    width: 70%;
+    margin-top: 10px;
+    margin-left: 40px;
+    background-color: #fff;
+}
+
+.title-container{
+    text-align: center;
+    background-color: transparent;
+    padding: 0 10px;
+    font-size: 3rem;
+    margin-top: 30px;
+}
+
+.container-img{
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.img-pasos{
+    border: 1px solid #000;
+}
+
+#img-github{
+    font-size: 15rem;
+    color: #ff0000;
+}
+
+.container-concepto{
+    background-color: transparent;
+    padding: 0px 40px;
+    
+}
+
+.concepto-git{
+    font-size: 2.5rem;
+    text-align: justify;
+    font-family: 'Poppins';
+}
+
+.title-container2{
+    text-align: center;
+    background-color: transparent;
+    padding: 0 10px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    font-size: 3rem;
+}
+
+.container-sections{
+    width: 100%;
+}
+
+.numbers{
+    width: 35px;
+    height: 30px;
+    background-color: red;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    margin-right: 10px;
+    padding: 20px;
+}
+
+.container_numbers{
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+    padding: 2rem;
+}
+
+.concepto-subgit{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Poppins';
+    margin-top: 10px;
+}
+.concepto-pasos{
+    font-size: 2.2rem;
+    margin-right: 10px;
+    font-family: 'poppins';
+    margin-top: 5px;
+}
+
+.container-texto{
+    width: 100%;
+    padding: 2rem;
+}
+
+/* Estilos del boton subir*/
+
+.btn-subir{
+    position: fixed;
+    width: 70px;
+    height: 70px;
+    border-radius: 5rem;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    right: 2rem;
+    bottom: 7.4rem;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#subir{
+    font-size: 3.5rem;
+}
+
+/* Estilos del boton de siguiente capitulo */
+
+.container-btn{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn{
+    width: 250px;
+    height: 60px;
+    border: 2px solid #485cb7;
+    font-size: 2rem;
+    background-color: transparent;
+    color: #485cb7;
+    font-family: 'poppins';
+    font-weight: 700;
+    border-radius: 5px;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: #485cb7;
+    color: #fff;
+}
+/* Estilo del contenedor de los anuncios*/
+
+.anuncios{
+    width: 25%;
+    background-color: transparent;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+
+/* Estilos de el anuncio */
+
+.container-cofee{
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0px 0px 5px #222;
+    margin-bottom: 2rem;
+}
+
+
+.parrafo-cofee{
+    font-size: 2.5rem;
+    text-align: center;
+    font-family: 'Keania One';
+    padding: 1rem;
+    background-color: #111;
+    color: #fff;
+}
+
+.container-img-cofee{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.img-cofee{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 1rem;
+}
+
+.container-parrafo-cofee p{
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 400;
+    padding: 1rem;
+}
+
+.container-parrafo-cofee{
+    width: 100%;
+    margin-top: .5rem;
+}
+
+.container-btn-cofee{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.btn-cofee{
+   width: 200px;
+   height: 50px;
+   font-size: 2rem;
+   font-family: 'Poppins';
+   border: 2px solid #485cb7;
+   background-color: transparent;
+   border-radius: .5rem;
+   color: #485cb7;
+   cursor: pointer;
+   margin-bottom: 2rem;
+}
+
+.btn-cofee:hover{
+    background-color: #485cb7;
+    color: #fff;
+}
+
+/* Estilo de categorias*/
+
+.container-categorias{
+    width: 100%;
+    box-shadow: 0px 0px 5px #222;
+    background-color: #fff;
+}
+
+.container-icon-categoria{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.container-title-categoria{
+    width: 100%;
+    background-color: #111;
+    padding: 2rem;
+}
+
+.title-categoria{
+    color: #fff;
+}
+
+.icons-categoria{
+    font-size: 2rem;
+    color: #000;
+    text-decoration: none;
+    padding: 1.5rem;
+    margin: .1rem 0rem;
+}
+
+.icons-categoria:hover{
+    border-left: 4px solid #ff0000;
+}
+
+.item{
+    padding: 1.5rem 4rem;
+    color: #000;
+    font-family: 'Poppins';
+}
+
+.item:hover{
+   background-color: #222;
+   color: #fff;
+}
+
+.item-categoria{
+    width: 100%;
+    background-color: #fff;
+    box-shadow: inset 0px 0px 10px #ccc;
+    display: none;
+}
+
+.angle-down{
+    position: absolute;
+    right:2rem;
+    font-size: 2.5rem;
+}
+
+.ocultarCategory{
+    display: block;
+}
+
+.rotarFlecha{
+    transform: rotate(180deg);
+}
+
+/* Aqui estan los estilos del footer*/
+
+.container-footer{
+    width: 100%;
+    background-color: #111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.container-footer p{
+    color: #fff;
+    font-size: 2rem;
+    font-family: 'Keania One';
+    margin-left: 2rem;
+}
+
+.container-title-footer{
+    width: 50%;
+}
+
+.icons-social-footer{
+    display: flex;
+    width: 50%;
+    justify-content: flex-end;
+}
+
+.icon-footer{
+    color: #fff;
+    font-size: 3rem;
+    margin-right: 2rem;
+}
+
+@media (max-width: 768px){
+  .container-btn{
+      justify-content: center;
+  }
+  
+}
+
+@media (max-width: 1200px){
+    .main{
+        flex-direction: column;
+    }
+
+    .container-main{
+        width: 90%;
+    }
+
+    .icons-social{
+       display: none;
+   }
+
+   .container-main{
+       width: 100%;
+       margin: 0;
+   }
+
+   .container-concepto{
+       padding: 0rem .5rem;
+   }
+
+   .img-pasos{
+       width: 90%;
+   }
+
+   .anuncios{
+       width: 95%;
+       margin-left: 0;
+       margin: 2rem auto;
+   }
+
+   .container-footer{
+       flex-direction: column;
+   }
+
+   .container-title-footer{
+       width: 100%;
+       text-align: center;
+   }
+
+   .icons-social-footer{
+       width: 100%;
+       justify-content: center;
+       margin: 1rem 0rem;
+   }
+
+   .container-concepto{
+       padding: 0rem .5rem;
+   }
+   
+   .container_numbers{
+       flex-direction: column;
+       padding: 0.5rem;
+       align-items: center;
+   }
+
+   .concepto-pasos{
+       text-align: center;
+   }
+}
